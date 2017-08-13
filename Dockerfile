@@ -11,4 +11,4 @@ RUN pip3 install -r requirements.txt \
     && ln -s /usr/local/src/gcpaaci/ci.py /usr/local/bin/ci
 
 ENTRYPOINT docker-entrypoint.sh
-CMD ["ci"]
+CMD ["ci", "-h"]
