@@ -1,6 +1,6 @@
 #!/bin/bash
 set -eu
 
-export PATH=/usr/local/bin:$PATH
+export PATH=/:$PATH
 
 exec "$@"
